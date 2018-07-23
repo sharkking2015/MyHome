@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="detail_backdrop_height">56dp</dimen>
+    <dimen name="list_item_height">48dp</dimen>
+    <dimen name="list_font_size"> 16dp</dimen>
+    <dimen name="ex_large_font_size">30dp</dimen>
+    <dimen name="common_font_size">15dp</dimen>
+    <dimen name="large_font_size">18dp</dimen>
+</resources>

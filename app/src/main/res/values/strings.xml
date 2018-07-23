@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyHome</string>
+    <string name="message">信息</string>
+    <string name="create_new">新建菜肴</string>
+    <string name="click_me_choose_pic">点我选图</string>
+    <string name="dish_name">菜名:</string>
+    <string name="introduce">说明：</string>
+    <string name="ensure">确定</string>
+    <string name="test_str">a\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\n</string>
+    <string name="create_list">生成菜单</string>
+    <string name="choose_dishes">选择菜单</string>
+    <string name="dish_number">数量</string>
+    <string name="re_create">重新生成</string>
+</resources>

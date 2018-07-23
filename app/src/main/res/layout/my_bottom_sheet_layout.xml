@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/design_bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:behavior_hideable="true"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <RelativeLayout
+        android:id="@+id/new_dish_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:id="@+id/add_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/ic_add_item" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/add_icon"
+            android:text="@string/create_new"
+            android:textColor="@color/black_54"
+            android:textSize="@dimen/list_font_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/create_list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:layout_below="@+id/new_dish_layout">
+
+        <ImageView
+            android:id="@+id/list_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/icon_files" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/list_icon"
+            android:text="@string/create_list"
+            android:textColor="@color/black_54"
+            android:textSize="@dimen/list_font_size" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/choose_list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:layout_below="@+id/create_list_layout">
+
+        <ImageView
+            android:id="@+id/choose_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/icon_dishes" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/choose_icon"
+            android:text="@string/choose_dishes"
+            android:textColor="@color/black_54"
+            android:textSize="@dimen/list_font_size" />
+    </RelativeLayout>
+</RelativeLayout>
